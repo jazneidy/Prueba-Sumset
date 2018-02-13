@@ -34,7 +34,7 @@
 <h6> JAZNEIDY VARGAS SILVA</h6>
 <h6> HOBBIES</h6>
 <p> Hola, los hobbies que tengo es mirar series, me gusta mucho ver series y peliculas (GAME OF THRONES,DC COMICS Y MARVEL)
- me gusta hacer ejercicio, por lo que voy al GYM y hacer recetas de cocina
+ me gusta hacer ejercicio, por lo que voy al GYM y hacer recetas de cocina </p>
  
  <div id="piechart" style="width: 900px; height: 500px;"></div>
 
