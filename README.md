@@ -1,11 +1,7 @@
 # Prueba-Sumset
 <html>
 
-<head>
-<script type = "text / javascript" src = "https://www.gstatic.com/charts/loader.js" > </ script> <script type = "text / javascript" > google . cuadros . load ( 'current' , { packages : [ 'corechart' ]}); google . cuadros . setOnLoadCallback ( drawChart ); ... </ script> 
- 
-Hola mundo
-</head>
+<head>Hola mundo</head>
 
 <body>
 <h5>Hola Mundo</h5> 
