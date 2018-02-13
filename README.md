@@ -11,11 +11,10 @@
 
         var data = google.visualization.arrayToDataTable([
           ['Task', 'Hours per Day'],
-          ['Work',     11],
-          ['Eat',      2],
-          ['Commute',  2],
-          ['Watch TV', 2],
-          ['Sleep',    7]
+          ['IE6 5',     11],
+          ['IE7 20',      2],
+          ['IE8 75',  2]
+      
         ]);
 
         var options = {
