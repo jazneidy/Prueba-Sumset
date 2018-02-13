@@ -2,7 +2,9 @@
 <html>
 
 <head>
-<script type = "text / javascript" src = "https://www.gstatic.com/charts/loader.js" > </ script> <script type = "text / javascript" > google . cuadros . load ( 'current' , { packages : [ 'corechart' ]}); google . cuadros . setOnLoadCallback ( drawChart ); ... </ script>  
+<script type = "text / javascript" src = "https://www.gstatic.com/charts/loader.js" > </ script> <script type = "text / javascript" > google . cuadros . load ( 'current' , { packages : [ 'corechart' ]}); google . cuadros . setOnLoadCallback ( drawChart ); ... </ script> 
+ 
+Hola mundo
 </head>
 
 <body>
