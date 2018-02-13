@@ -12,7 +12,7 @@
         var data = google.visualization.arrayToDataTable([
           ['Task', 'Hours per Day'],
           ['IE6 5',     11],
-          ['IE7 20',      2],
+          ['IE7 20',      5],
           ['IE8 75',  2]
       
         ]);
