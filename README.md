@@ -36,7 +36,7 @@
  me gusta hacer ejercicio, por lo que voy al GYM y hacer recetas de cocina </p>
  
  <div id="piechart" style="width: 900px; height: 500px;"></div>
- <button> Cambiar Valores </button>
+ <button> Cambiar_Valores </button>
 
 
 </body>
