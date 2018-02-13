@@ -18,7 +18,7 @@
         ]);
 
         var options = {
-          title: ' datos del pie chart:'
+          title: ' Datos Pie Chart:'
         };
 
         var chart = new google.visualization.PieChart(document.getElementById('piechart'));
