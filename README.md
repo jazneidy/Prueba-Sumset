@@ -19,7 +19,7 @@
         ]);
 
         var options = {
-          title: 'My Daily Activities'
+          title: ' datos del pie chart:'
         };
 
         var chart = new google.visualization.PieChart(document.getElementById('piechart'));
