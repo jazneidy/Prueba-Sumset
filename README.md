@@ -3,31 +3,7 @@
 
 <head>
  <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
-    <script type="text/javascript">
-      google.charts.load('current', {'packages':['corechart']});
-      google.charts.setOnLoadCallback(drawChart);
-
-      function drawChart() {
-
-        var data = google.visualization.arrayToDataTable([
-          ['Task', 'Hours per Day'],
-          ['IE6 ',     5],
-          ['IE7 ',      20],
-          ['IE8 ',  75]
-      
-        ]);
-
-        var options = {
-          title: ' Datos Pie Chart:'
-        };
-
-        var chart = new google.visualization.PieChart(document.getElementById('piechart'));
-
-        chart.draw(data, options);
-       
-      }
-    </script>
-
+    
 </head>
 
 <body>
@@ -37,7 +13,43 @@
  me gusta hacer ejercicio, por lo que voy al GYM y hacer recetas de cocina </p>
  
  <div id="piechart" style="width: 900px; height: 500px;"></div>
- <button> Cambiar_Valores </button>
+ 
+ 
+ <script type="text/javascript">
+      google.charts.load('current', {'packages':['corechart']});
+      google.charts.setOnLoadCallback(drawChart);
+      
+      <input type="button" value="Cambiar" onclick ="click">
+      
+       function drawChart() {
+      
+        var data = google.visualization.arrayToDataTable([
+          ['Task', 'Hours per Day'],
+          ['IE6 ',     5],
+          ['IE7 ',      20],
+          ['IE8 ',  75]
+          ]);
+        var options = {
+        title: ' Datos Pie Chart:'
+        };
+        var chart = new google.visualization.PieChart(document.getElementById('piechart'));
+        chart.draw(data, options);            
+        }
+        
+        var cambiarValores = function ()
+           {
+        var data = google.visualization.arrayToDataTable([
+          ['Task', 'Hours per Day'],
+          ['IE6 ',     50],
+          ['IE7 ',      40],
+          ['IE8 ',  10]
+          ]);
+          var click=new google.visualization.PieChart(document.get.ElementById(cambiarValores).value);    
+       
+      }
+    </script>
+
+ 
  
 </body>
 
