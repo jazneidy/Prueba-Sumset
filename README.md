@@ -35,7 +35,7 @@
 <script>
        
       <div id="piechart" style="width: 900px; height: 500px;"></div> 
-      <input type="button" value="Cambiar" onclick ="click">
+      <input type="button" value="Cambiar" onclick ="click"/>
 
         var cambiarValores = function ()
            {
@@ -47,8 +47,8 @@
           ]);
           var click=new google.visualization.PieChart(document.get.ElementById(cambiarValores).value);   
       }
- 
-</script>
+ </script>
+
 </body>
 
 </html>
