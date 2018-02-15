@@ -49,11 +49,11 @@
           ['IE7 ',  40],
           ['IE8 ',  10]
           ]);
-           var nombre = {
-        title: ' Prueba:'
-        };
+        //   var nombre = {
+        //title: ' Prueba:'
+       // };
         var chart1 = new google.visualization.PieChart(document.getElementById('piechart'));
-        chart1.draw(data1,nombre);
+        chart1.draw(data1);
           
         }
  </script>
