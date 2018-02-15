@@ -3,8 +3,6 @@
 
 <head>
  <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
-  <div id="piechart" style="width: 900px; height: 500px;"></div>
- 
  <script type="text/javascript">
       google.charts.load('current', {'packages':['corechart']});
       google.charts.setOnLoadCallback(drawChart);
@@ -33,6 +31,7 @@
 <p> Hola, los hobbies que tengo es mirar series, me gusta mucho ver series y peliculas (GAME OF THRONES,DC COMICS Y MARVEL)
  me gusta hacer ejercicio, por lo que voy al GYM y hacer recetas de cocina </p>
  
+<div id="piechart" style="width: 900px; height: 500px;"></div>
 <script>
       
       <input type="button" value="Cambiar" onclick ="click">
