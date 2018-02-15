@@ -52,9 +52,7 @@
            var nombre = {
         title: ' Prueba:'
         };
-          
-          var chart1 = new google.visualization.PieChart(document.getElementById('piechart'));
-
+        var chart1 = new google.visualization.PieChart(document.getElementById('piechart'));
         chart1.draw(data1,nombre);
           
         }
