@@ -11,9 +11,9 @@
 
         var data = google.visualization.arrayToDataTable([
           ['Task', 'Hours per Day'],
-          ['IE6 5',     11],
-          ['IE7 20',      5],
-          ['IE8 75',  2]
+          ['IE6 ',     5],
+          ['IE7 ',      20],
+          ['IE8 ',  75]
       
         ]);
 
@@ -24,6 +24,7 @@
         var chart = new google.visualization.PieChart(document.getElementById('piechart'));
 
         chart.draw(data, options);
+       
       }
     </script>
 
@@ -37,8 +38,7 @@
  
  <div id="piechart" style="width: 900px; height: 500px;"></div>
  <button> Cambiar_Valores </button>
-
-
+ 
 </body>
 
 </html>
