@@ -34,26 +34,21 @@
  <div id="piechart" style="width: 900px; height: 500px;"></div> 
  
 <form action="">
-   
-   <input type="button" value="Cambiar" onclick ="cambiarValores()"/>
- 
+<input type="button" value="Cambiar" onclick ="cambiarValores()"/>
 </form>
 
 <script>
    
       var cambiarValores = function ()
            {
-        var data1 = google.visualization.arrayToDataTable([
+        var data = google.visualization.arrayToDataTable([
           ['Task', 'Hours per Day'],
           ['IE6 ',  50],
           ['IE7 ',  40],
           ['IE8 ',  10]
           ]);
-        //   var nombre = {
-        //title: ' Prueba:'
-       // };
-        var chart1 = new google.visualization.PieChart(document.getElementById('piechart'));
-        chart1.draw(data1);
+        var chart = new google.visualization.PieChart(document.getElementById('piechart'));
+        chart.draw(data);
           
         }
  </script>
