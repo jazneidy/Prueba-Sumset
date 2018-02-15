@@ -33,7 +33,7 @@
  
 <form action ="">
    <input type="button" value="Cambiar" onclick ="cambiarValores">
-</fomr>
+</form>
 
 <script>
        
