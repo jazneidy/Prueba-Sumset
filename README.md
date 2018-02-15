@@ -38,9 +38,7 @@
 </form>
 
 <script>
-       
- 
-    
+   
       var cambiarValores = function ()
            {
         var data = google.visualization.arrayToDataTable([
@@ -49,6 +47,10 @@
           ['IE7 ',      40],
           ['IE8 ',  10]
           ]);
+          var chart1 = new google.visualization.PieChart(document.getElementById('piechart'));
+
+        chart1.draw(data);
+          
         }
  </script>
 
