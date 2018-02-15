@@ -26,7 +26,7 @@
 </head>
 
 <body>
- <h6> JAZNEIDY VARGAS SILVA</h6>
+<h6> JAZNEIDY VARGAS SILVA</h6>
 <h6> HOBBIES</h6>
 <p> Hola, los hobbies que tengo es mirar series, me gusta mucho ver series y peliculas (GAME OF THRONES,DC COMICS Y MARVEL)
  me gusta hacer ejercicio, por lo que voy al GYM y hacer recetas de cocina </p>
@@ -41,15 +41,15 @@
    
       var cambiarValores = function ()
            {
-        var data = google.visualization.arrayToDataTable([
+        var data1 = google.visualization.arrayToDataTable([
           ['Task', 'Hours per Day'],
-          ['IE6 ',     50],
-          ['IE7 ',      40],
+          ['IE6 ',  50],
+          ['IE7 ',  40],
           ['IE8 ',  10]
           ]);
           var chart1 = new google.visualization.PieChart(document.getElementById('piechart'));
 
-        chart1.draw(data);
+        chart1.draw(data1);
           
         }
  </script>
