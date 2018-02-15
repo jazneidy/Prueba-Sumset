@@ -31,8 +31,8 @@
 <p> Hola, los hobbies que tengo es mirar series, me gusta mucho ver series y peliculas (GAME OF THRONES,DC COMICS Y MARVEL)
  me gusta hacer ejercicio, por lo que voy al GYM y hacer recetas de cocina </p>
  
-<form action ="">
-   <input type="button" value="Cambiar" onclick ="cambiarValores">
+<form action="">
+   <input type="button" value="Cambiar" onclick ="cambiarValores"/>
 </form>
 
 <script>
