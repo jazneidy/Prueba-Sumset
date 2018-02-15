@@ -34,7 +34,9 @@
  <div id="piechart" style="width: 900px; height: 500px;"></div> 
  
 <form action="">
+   alert("entro");
    <input type="button" value="Cambiar" onclick ="cambiarValores"/>
+ 
 </form>
 
 <script>
