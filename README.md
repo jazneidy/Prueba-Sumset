@@ -35,7 +35,7 @@
  
 <form action="">
    
-   <input type="button" value="Cambiar" onclick ="alert(cambiarValores())"/>
+   <input type="button" value="Cambiar" onclick ="cambiarValores()"/>
  
 </form>
 
